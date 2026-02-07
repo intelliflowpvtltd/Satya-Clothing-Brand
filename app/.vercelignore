@@ -1,0 +1,38 @@
+# Dependencies
+/vendor
+/node_modules
+
+# Development files
+.env
+.env.local
+.env.*.local
+.phpunit.result.cache
+phpunit.xml
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+storage/logs/*
+!storage/logs/.gitkeep
+
+# Cache (will be in /tmp on Vercel)
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+bootstrap/cache/*
+
+# Testing
+/tests
+/coverage
+
+# Documentation
+*.md
+!README.md
